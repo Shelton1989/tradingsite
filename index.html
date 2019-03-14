@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Site meta-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Front end assessment for M Agency by shelton Wilson.">
+        <!--Site title-->
+        <title>MO Agency: Assessment | Front End Development</title>
+
+        <!--Stylesheet links-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper nav-container">
+                <div class="brand-logo logo">
+                    <a href="index.html"><span id="logo-accessibility">Company Z Logo</span></a>
+                </div>
+                <a href="." data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-links" class="right hide-on-med-and-down">
+                    <li><a class="nav-link active" href="#" onclick="setActive(this)">HOME</a></li>
+                    <li><a class="nav-link" href="#" onclick="setActive(this)">ABOUT</a></li>
+                    <li><a class="nav-link" href="#" onclick="setActive(this)">TRADE WARS</a></li>
+                    <li><a class="nav-link" href="#" onclick="setActive(this)">DOWNLOADS</a></li>
+                    <li><a class="nav-link" href="#" onclick="setActive(this)">RESOURCES</a></li>
+                    <li><a class="nav-link" href="#" onclick="setActive(this)">SUPPORT</a></li>
+                    <li>
+                        <ul id="nav-buttons">
+                            <li><a class="nav-button" href="#">PARTNER WITH US</a></li>
+                            <li><a class="nav-button" href="#">LOGIN</a></li>
+                            <li><a class="nav-brand-button" href="#">OPEN FREE ACCOUNT</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul id="mobile-menu" class="sidenav">
+            <li><a class="nav-link" href="#">HOME</a></li>
+            <li><a class="nav-link" href="#">ABOUT</a></li>
+            <li><a class="nav-link" href="#">TRADE WARS</a></li>
+            <li><a class="nav-link" href="#">DOWNLOADS</a></li>
+            <li><a class="nav-link" href="#">RESOURCES</a></li>
+            <li><a class="nav-link" href="#">SUPPORT</a></li>
+            <li><a class="nav-button" href="#">PARTNER WITH US</a></li>
+            <li><a class="nav-button" href="#">LOGIN</a></li>
+            <li><a class="nav-brand-button" href="#">OPEN FREE ACCOUNT</a></li>
+        </ul>
+        <div class="row header-image">
+            <div class="container">
+                <div class="row">
+                    <h2 id="header-title" class="white-text center-align header-title">Welcome to #TradeWars</h2>
+                    <h4 id="header-subtitle" class="white-text center-align header-title">Trade digital currency like a pro.</h4>
+                </div>
+                <div class="row spacing">
+                    <div class="col m6 small-align button-align"><a class="white-brand-button right" href="#" >PARTNER WITH US</a></div>
+                    <div class="col m6 small-align button-align"><a class="brand-button left" href="#" >OPEN A FREE ACCOUNT</a></div>
+                </div>   
+            </div>     
+        </div>
+        <div class="row lead-image">
+            <div class="site-container">
+                <div class="row">
+                    <div class="col l6 full-width">
+                        <div class="col l4 small-align mid-align">
+                            <div class="image-container">
+                                <img class="responsive-img" src="./img/No Monthly Fees Icon - Black@2x.svg">
+                            </div>
+                            <div class="text-container">
+                                <p class="marketing-text center-align">No Monthly fees</p>
+                            </div>
+                        </div>
+                        <div class="col l4 small-align mid-align">
+                            <div class="image-container">
+                                <img class="responsive-img" src="./img/1 Online Brocker Icon - Black.png">
+                            </div>
+                            <div class="text-container">
+                                <p class="marketing-text center-align">#1 Online Broker *</p>
+                            </div>
+                        </div>
+                        <div class="col l4 small-align mid-align">
+                            <div class="image-container">
+                                <img class="responsive-img" src="./img/Lowest Cost Icon - Black@2x.svg">
+                            </div>
+                            <div class="text-container">
+                                <p class="marketing-text center-align">Lowest Cost trading in South Africa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l6 full-width">
+                        <div class="col l4 small-align mid-align">
+                            <div class="image-container">
+                                <img class="responsive-img" src="./img/Pioneers of CDF Icon - Black@2x.svg">
+                            </div>
+                            <div class="text-container">
+                                <p class="marketing-text center-align">Pioneers of CFD & Spread trading in SA</p>
+                            </div>
+                        </div>
+                        <div class="col l4 small-align mid-align">
+                            <div class="image-container">
+                                <img class="responsive-img" src="./img/Forex Icon - Black@2x.svg">
+                            </div>
+                            <div class="text-container">
+                                <p class="marketing-text center-align">Forex | Commodities | Indices | CFD Equities</p>
+                            </div>
+                        </div>
+                        <div class="col l4 small-align mid-align">
+                            <div class="image-container">
+                                <img class="responsive-img" src="./img/Authorized Financial Icon - Black@2x.svg">
+                            </div>
+                            <div class="text-container">
+                                <p class="marketing-text center-align">Authorized Financial services provider **</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="marketing-fine-print center-align">
+                        <p class="col l4 small-align">* Intellidex Top Stock Broker Awards 2016</p>
+                        <p class="col l8 small-align">** CompanyZ is a subsidiary and a juristic representative of Purple Group Limited, an authorized Financial Services Provider.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row about-spacing">
+            <div class="site-container">
+                <div class="col l4" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="150">
+                    <h5 class="about-heading">
+                        About CompanyZ
+                    </h5>
+                    <p>
+                        The #1 online stockbrocker and one of the cheapest trading platforms in South Africa. Our tighter spreads, no platform or monthly fees mean more of your funds go towards your trading, not on costs.
+                        <br><span style="font-weight: bold">Less cost = More profit</span>
+                    </p>
+                    <p class="about-link"><a href="#">FIND OUT MORE ></a></p>
+                </div>
+                <div class="col l4" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-delay="180">
+                    <h5 class="about-heading">
+                        Learn more about trading
+                    </h5>
+                    <p>
+                        One of our key priorities is your trading education and training. Our tools are designed to improve your knowledge so you can become an informed and successful trader. Read more on our Trading 101 seminars, one-on-one tuition sessions, online video tutorials and live chats here.
+                    </p>
+                    <p class="about-link"><a href="#">TRADING RESOURCES ></a></p>
+                </div>
+                <div class="col l4" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="200">
+                    <h5 class="about-heading">
+                        How can we help you today?
+                    </h5>
+                    <p>
+                        We aim to make your trading simple, focused, cost-effective and efficient across a wide spectrum of instruments, including CFDs, equities, Futures and Forex. For more information, visit our FAQ section or get in contact with us today!
+                    </p>
+                    <p class="about-link"><a href="#">VISIT OUR FAQ SECTION ></a></p>
+                </div>
+            </div>
+        </div>
+        <div class="row awards-section">
+            <div class="site-container">
+                <div class="col l4 awards-spacing">
+                    <h2 data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="150" class="awards-heading">Award-winning</h2>
+                    <h2 data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="250" class="awards-heading-bold">platform.</h2>
+                    <p data-aos="fade-right" data-aos-easing="ease-in" data-aos-delay="350" class="awards-link"><a href="#">ALL OUR AWARDS ></a></p>
+                </div>
+                <div class="col l8 awards-spacing">
+                    <div class="row">
+                        <div data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="450" class="col m6 center-align small-align">
+                            <img class="responsive-img awards-image" src="./img/Badge 01@2x.png">
+                            <p class="awards-text">Top Online Stock Broker South Africa</p>
+                            <p class="awards-text-small">INTELLIDEX STOCK BROKER AWARDS 2016</p>
+                        </div>
+                        <div data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="500" class="col m6 center-align small-align">
+                            <img class="responsive-img awards-image" src="./img/Best Badge @2x.png">
+                            <p class="awards-text">Best In Class Value for Money</p>
+                            <p class="awards-text-small">INTELLIDEX STOCK BROKER AWARDS 2016</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="550" class="col m6 center-align small-align">
+                            <img class="responsive-img awards-image" src="./img/Badge 02@2x.png">
+                            <p class="awards-text">CFD Provider South Africa</p>
+                            <p class="awards-text-small">INTELLIDEX STOCK BROKER AWARDS 2016</p>
+                        </div>
+                        <div data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="600" class="col m6 center-align small-align">
+                            <img class="responsive-img awards-image" src="./img/Badge 01@2x.png">
+                            <p class="awards-text">#1 InvestecTechCompany in Africa</p>
+                            <p class="awards-text-small">FINTECH AFRICA AWARDS 2016</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row translateY">
+            <div class="site-container">
+                <div class="col m5 right-align" data-aos="flip-right" data-aos-easing="ease-in" data-aos-delay="250">
+                    <img class="responsive-img padding-info" src="./img/Home Image 2 - 20170914@3x.svg">
+                </div>
+                <div class="col m6">
+                    <p data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-delay="350" class="flow-text start-text">
+                        At Company Z we thrive on offering education, sharing trading ideas and giving traders the best chance at success. Our teams wants you to make money and are themselves traders.
+                    </p>
+                    <div class="button-spacing"  data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="450"><a class="brand-button-info left" href="#" >START TRADING TODAY!</a></div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="site-container">
+                <div class="row">
+                    <div class="col m6 small-align">
+                        <p class="footer-text">
+                            GT247 (Pty) Ltd t/a GT247.com is a subsidiary and a juristic representative of Purple Group Limited, an authorised Financial Services Provider by the Financial Services Board (FSB) of South Africa, FSB License No. 46315. Any material shared/displayed on this website does not constitute financial advice. Should you require financial advice, please consult your financial planner.
+                        </p>
+                        <ul class="footer-nav-two">
+                            <li class="footer-nav-link-two">
+                                <a href="#">SITEMAP</a>
+                            </li>
+                            <li class="footer-nav-link-two">
+                                <a href="#">HELP AND ACCESSIBILITY</a>
+                            </li>
+                            <li class="footer-nav-link-two">
+                                <a href="#">PRIVACY POLICY</a>
+                            </li>
+                            <li class="footer-copyright">
+                                <p>&copy; 2015 PURPLE GROUP LIMITED</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col m6 right-align small-align">
+                        <div class="row">
+                            <ul class="footer-nav">
+                                <li class="footer-nav-link">
+                                    <a href="#">HOME</a>
+                                </li>
+                                <li class="footer-nav-link">
+                                    <a href="#">ABOUT</a>
+                                </li>
+                                <li class="footer-nav-link">
+                                    <a href="#">RESOURCES</a>
+                                </li>
+                                <li class="footer-nav-link">
+                                    <a href="#">FAQ'S</a>
+                                </li>
+                                <li class="footer-nav-link">
+                                    <a href="#">BLOG</a>
+                                </li>
+                                <li class="footer-nav-link">
+                                    <a href="#">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="#">
+                                        <img data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="350" class="social-icon" src="./img/symbols-facebook-icon.png">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="250" class="social-icon" src="./img/symbols-twitter-icon.png">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="150" class="social-icon" src="./img/symbols-linkedin-icon.png">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
